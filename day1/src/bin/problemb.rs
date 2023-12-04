@@ -31,7 +31,6 @@ fn main() {
         let last_element = re2.find(rev).unwrap_or(first_element);
         let first_digit = transform_digit(first_element.as_str()) as u32;
         let last_digit = transform_digit(last_element.as_str()) as u32;
-        println!("{} {}{}", line, first_digit, last_digit,);
         sum += first_digit * 10 + last_digit;
     }
     println!("{} computed in {}s", sum, time.elapsed().as_secs_f32());
