@@ -1,9 +1,10 @@
 # Polyglot Advent of code
-My challenge for this advent of code is to use a least 12 languages to solve this year advent of code.
+My challenge for this advent of code is to use a different language for each day.
 
 ## Langages used
 - Rust (Day 1)
-
+- Erlang (Day 2)
+- Clojure (Day 3)
 - Perl (Day 4)
 
 ## Potential language
